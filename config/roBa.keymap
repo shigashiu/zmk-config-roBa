@@ -81,7 +81,7 @@
         default_layer {
             bindings = <
 &mt ESCAPE Q      &kp W         &kp E         &kp R                        &kp T                                                         &kp Y        &kp U  &lt 5 I   &kp O      &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                    &kp APOSTROPHE  &kp H        &kp J  &kp K     &kp L      &kp MINUS
+&kp A             &kp S         &kp D         &kp F                        &kp G        &none                            &kp APOSTROPHE  &kp H        &kp J  &kp K     &kp L      &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                        &kp SEMICOLON   &kp N        &kp M  &mkp MB1  &kp COMMA  &kp PERIOD
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 1 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE   &lt 2 ENTER                              &kp RIGHT_SHIFT
             >;
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp TAB          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL                                               &kp CARET         &kp AMPERSAND   &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp KP_ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1        &kp UP_ARROW    &mkp MB2              &kp COLON
-&kp SLASH        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp QUESTION                 &trans          &kp LEFT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp BACKSLASH
-&kp ESCAPE       &kp NUMBER_0  &kp PERIOD    &kp DEL       &kp ENTER  &kp BACKSPACE                &trans          &trans                                                                  &kp PIPE
+&kp TAB          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL                                     &kp CARET         &kp AMPERSAND   &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp KP_ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans             &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1        &kp UP_ARROW    &mkp MB2              &kp COLON
+&kp SLASH        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp QUESTION       &trans          &kp LEFT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp BACKSLASH
+&kp ESCAPE       &kp NUMBER_0  &kp PERIOD    &kp DEL       &kp ENTER  &kp BACKSPACE      &trans          &trans                                                                  &kp PIPE
             >;
         };
 
