@@ -85,8 +85,6 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                        &kp SEMICOLON   &kp N        &kp M  &mkp MB1  &kp COMMA  &kp PERIOD
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 1 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE   &lt 2 ENTER                              &kp RIGHT_SHIFT
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
