@@ -116,8 +116,8 @@
         FUNCTION {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                       &kp F6            &kp F7    &kp F8             &kp F9    &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp UNDER         &mkp MB1  &kp K_SCROLL_UP    &mkp MB2  &kp SEMICOLON
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp LEFT_BRACKET  &trans    &kp K_SCROLL_DOWN  &trans    &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp JP_UNDERSCORE        &mkp MB1  &kp K_SCROLL_UP    &mkp MB2  &kp SEMICOLON
+&trans  &trans  &trans  &trans  &trans  &trans      &trans   &kp JP_AT  &trans    &kp K_SCROLL_DOWN  &trans    &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                                                   &kp F12
             >;
         };
@@ -125,8 +125,8 @@
         NUM {
             bindings = <
 &kp TAB          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                                       &kp CARET         &kp AMPERSAND   &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp KP_ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS  &trans             &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1        &kp UP_ARROW    &mkp MB2              &kp COLON
-&kp KP_SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UNDER    &kp QUESTION       &trans          &kp LEFT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp BACKSLASH
+&kp JP_ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_PLUS  &trans             &kp UNDERSCORE  &kp EXCLAMATION   &mkp MB1        &kp UP_ARROW    &mkp MB2              &kp COLON
+&kp KP_SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL    &kp QUESTION       &trans          &kp LEFT_BRACKET  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp BACKSLASH
 &kp ESCAPE       &kp NUMBER_0  &kp PERIOD    &kp DEL       &kp ENTER    &kp BACKSPACE      &trans          &trans                                                                  &kp PIPE
             >;
         };
