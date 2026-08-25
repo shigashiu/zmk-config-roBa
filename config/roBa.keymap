@@ -111,13 +111,14 @@
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                        &kp SEMICOLON   &kp N        &kp M  &mkp MB1  &kp COMMA  &kp PERIOD
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LANGUAGE_2  &lt 1 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE   &lt 2 ENTER                              &kp RIGHT_SHIFT
             >;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         FUNCTION {
             bindings = <
 &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                       &kp F6            &kp F7    &kp F8             &kp F9    &kp F10
 &trans  &trans  &trans  &kp JP_PIPE  &kp JP_LBRACKET  &trans      &kp F13  &kp JP_UNDERSCORE        &mkp MB1  &kp K_SCROLL_UP    &mkp MB2  &kp SEMICOLON
-&kp JP_TILDE  &kp JP_BACKQUOTE  &trans  &kp JP_BACKQUOTE  &kp JP_LBRACE  &trans      &trans   &kp JP_AT  &trans    &kp K_SCROLL_DOWN  &trans    &kp F11
+&kp JP_TILDE  &kp JP_BACKQUOTE  &trans  &trans  &kp JP_LBRACE  &trans      &trans   &kp JP_AT  &trans    &kp K_SCROLL_DOWN  &trans    &kp F11
 &kp JP_YEN  &kp JP_CARET  &trans  &trans  &trans  &trans      &trans   &trans                                                   &kp F12
             >;
         };
